@@ -6,10 +6,15 @@
   font-size: large;
 }
 
+.navigation {
+  background-color: orange;
+}
+
+.navigation a {
+  color: inherit;
+}
+
 .navLink {
   float: right;
-  margin-right: 5px;
-}
-.inIcon {
-  padding: 4px;
+  margin-right: 10px;
 }
