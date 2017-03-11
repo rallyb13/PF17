@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import {Router, Route, hashHistory } from 'react-router';
-import Navigation from './Navigation';
+import { Router, Route, hashHistory } from 'react-router';
 import Projects from './Projects';
 import Shark from './Shark';
 
@@ -10,7 +9,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation />
         <Router history={hashHistory}>
           <Route path="/" component={Projects}></Route>
           <Route path="/shark" component={Shark}></Route>

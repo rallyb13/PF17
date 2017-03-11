@@ -8,13 +8,22 @@
 
 .navigation {
   background-color: #FF8100;
+  height: 3em;
 }
 
-.navigation a {
-  color: inherit;
+.navigation a:hover {
+  text-decoration: inherit;
+  color: #5b6cc3;
+}
+
+.navPage {
+  float: left;
+  margin-left: 1em;
+  color: black;
 }
 
 .navLink {
   float: right;
-  margin-right: 10px;
+  margin-right: 1em;
+  color: #0a196a;
 }

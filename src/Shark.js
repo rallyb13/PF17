@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Navigation from './Navigation';
 
 class Shark extends Component {
   render() {
     return (
-      <div><p>Who I Am.</p></div>
+      <div>
+        <Navigation />
+        <p>Who I Am.</p>
+      </div>
     )
   }
 }

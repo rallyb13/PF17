@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Navigation from './Navigation';
 
 class Projects extends Component {
   render() {
     return (
-      <div><p>Things I have Done.</p></div>
+      <div>
+        <Navigation />
+        <p>Things I have Done.</p>
+      </div>
     )
   }
 }
