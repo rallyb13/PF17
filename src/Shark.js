@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
+import Headline from './Headline';
 
 class Shark extends Component {
   render() {
     return (
       <div>
         <Navigation />
-        <p>Who I Am.</p>
+        <Headline />
+        <div className="sharkBlock">
+          <p>
+            If a shark stops swimming, it dies.          
+          </p>
+        </div>
       </div>
     )
   }

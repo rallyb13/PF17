@@ -8,7 +8,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Router history={hashHistory}>
           <Route path="/" component={Projects}></Route>
           <Route path="/shark" component={Shark}></Route>
