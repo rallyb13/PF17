@@ -11,7 +11,7 @@ class Projects extends Component {
     
     for (let item of data) {
       pieces.push(
-        <Piece name={item.name} lang={item.lang} url={item.url} img={item.img} caption={item.caption} more={item.more}/>
+        <Piece key={item.name} name={item.name} lang={item.lang} url={item.url} img={item.img} caption={item.caption} more={item.more}/>
       )
     }
     
