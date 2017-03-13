@@ -52,9 +52,45 @@
 
 /************* PORTFOLIO ************/
 .projBlock {
-  margin: 1em 2em;  /*TODO: media query significantly reduce margin*/
+  margin: 2em;  /*TODO: media query significantly reduce margin*/
 }
 
+.profilePiece {
+  border: 1px solid #3a4db4;
+  border-radius: 5%;
+  width: 35%;
+  min-height: 450px;
+  margin: 10px 7.5% 10px 7.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.profilePiece h4{
+  margin: 10px 5% 2.5px 5%;
+}
+
+.profilePiece span {
+  margin-left: 5px;
+  font-style: italic;
+}
+
+.language {
+  font-size: 16px;
+}
+
+.more:hover{
+  text-decoration: underline;
+  color: #3a4db4;
+}
+
+.profilePiece img {
+  max-width: 95%;
+  padding-left: 5%;
+}
+
+.profilePiece p {
+  padding: 2.5% 5% 5% 5%;
+}
 
 /************* SHARK PAGE ************/
 .sharkBlock {

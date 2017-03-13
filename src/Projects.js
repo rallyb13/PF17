@@ -1,15 +1,26 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
 import Headline from './Headline';
+import Piece from './Piece';
+import PfStore from './store';
 
 class Projects extends Component {
   render() {
+    let data = PfStore.getProjectData();
+    let pieces = [];
+    
+    for (let item of data) {
+      pieces.push(
+        <Piece name={item.name} lang={item.lang} url={item.url} img={item.img} caption={item.caption} more={item.more}/>
+      )
+    }
+    
     return (
       <div>
         <Navigation />
         <Headline />
         <div className="projBlock">
-          <p>Things I have Done.</p>
+          {pieces}
         </div>
       </div>
     )
