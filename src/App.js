@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Router, Route, hashHistory } from 'react-router';
 import Projects from './Projects';
 import Shark from './Shark';
+import Footer from './Footer';
 
 import './App.css';
 
@@ -13,6 +14,7 @@ class App extends Component {
           <Route path="/" component={Projects}></Route>
           <Route path="/shark" component={Shark}></Route>
         </Router>
+        <Footer/>
       </div>
     );
   }

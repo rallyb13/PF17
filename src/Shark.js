@@ -9,9 +9,8 @@ class Shark extends Component {
         <Navigation />
         <Headline />
         <div className="sharkBlock">
-          <p>
-            If a shark stops swimming, it dies.          
-          </p>
+          <p>If a shark stops swimming, it dies.</p>
+          <p>SHARK (ABOUT) PAGE IS UNDER CONSTRUCTION</p>
         </div>
       </div>
     )
