@@ -12,6 +12,15 @@ const projectData = [
     more: "Originally, I only wanted to test out my ability to make a fully-playable game. Doing such a large project with my own specific goals allowed me to not only amp up my JS skills, but see the whole development process. I kept a trello board and broke everything into tickets, even deciding a few ideas could sit out for MVP. The biggest highlight was the back-to-back success of making recursive matching (you place a token where it makes a match and the newly created token also makes a match) work then then the wild card (megaphone token). As a guy who always works best with a team, though, I couldn't leave my friends out and brought them over for mini-hackithons, occasionally acting more as project manager. I plan to rebuild the game in C# using Unity with a small game design team I've formed."
   },
   {
+    name: "Text Adventure",
+    lang: "Unity/C#",
+    url: "http://gamebucket.io/game/1059a037-6535-4727-ba5f-f6ccee585abf",
+    img: "TextAdv.png",
+    alt: "Opening screen for a text adventure game",
+    caption: "I'm learning Unity and C#! This is from one of the tutorials. ",
+    more: "Up on gamebucket for only a month, this is the latest game (that I'm proud of), a simple text-based game. The nice thing about a tutorial slow enough for people just learning to code is that I can apply a dash of more advanced coding logic to even these early games (if you make it into the forest, see what happens when you keep choosing R to Run)."
+  },
+  {
     name: "Chess",
     lang: "Ruby",
     url: "https://hidden-hollows-2068.herokuapp.com",
