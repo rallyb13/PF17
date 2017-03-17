@@ -83,8 +83,8 @@
 }
 
 .profilePiece img {
-  max-width: 95%;
-  padding-left: 5%;
+  max-width: 90%;
+  margin: 0 5%;
 }
 
 .profilePiece p {
@@ -108,7 +108,7 @@
 /************* FOOTER ************/
 .footer {
   background-color: #52d16e;
-  height: 2em;
+  height: 30px;
   padding: 5px 10px;
   position: relative;
   bottom: 0;
