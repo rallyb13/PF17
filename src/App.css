@@ -4,6 +4,7 @@
   position: relative;
 }
 
+
 /********** NAVBAR *************/
 .navigation {
   background-color: #FF8100;
@@ -105,15 +106,81 @@
   }
 }
 
+
 /************* SHARK PAGE ************/
 .sharkBlock {
   margin: 1em 2em;
 }
 
-.convo {
-  /*text-align: center;*/
-  margin: 0 0 0 35%;
+.sharkBlock h4 {
+  margin: 20px 0 5px 0;
+  text-decoration: underline;
 }
+
+.bookImg {
+  float: right;
+  margin: 0.5em;
+  max-height: 150px;
+  border: #5b6cc3 1px solid;
+}
+
+.convo {
+  margin: 0 0 0 33%;
+}
+
+.meAtEpicodus {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin: 0.5em 0.5em 0.5em 0;
+  background-image: url("../public/AtEpicodus1.gif");
+  border: 1px solid #ffb264;
+}
+
+.zebra {
+  display: inline-block;
+  float: right;
+  margin: 0.5em 0 0.5em 0.5em;
+}
+
+.zebra img {
+  max-height: 150px;
+  border: 1px solid #5b6cc3;
+  border-radius: 50%;
+}
+
+.zebra h6 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .convo {
+    margin-left: 11%;
+  }
+  .meAtEpicodus {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  .convo {
+    margin-left: 0%;
+  }
+  .bookImg, .zebra img {
+    max-height: 125px;
+  }
+  .sharkBlock h4 {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+  }
+}
+
+.meAtEpicodus:hover {
+  background-image: url("../public/AtEpicodus2.gif");
+}
+
 
 /************* FOOTER ************/
 .footer {

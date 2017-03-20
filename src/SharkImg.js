@@ -2,20 +2,21 @@ import React, { Component } from 'react';
 
 class SharkImg extends Component {
   positionShark(leftShark) {
-    let leftPos = leftShark ? "-10vw" : "100vw"
+    let leftPos = leftShark ? "-90px" : "100vw"
+    let topPos = leftShark ? "66vh" : "75%"
     let style = {
-      maxWidth: "7.5%",
+      maxWidth: "90px",
       position: "absolute",
       left: leftPos,
-      top: "66vh"
+      top: topPos
     }
     if (this.props.count % 14 === 0) {
-      leftPos = leftShark ? "100vw" : "-10vw"
+      leftPos = leftShark ? "100vw" : "-90px"
       style = {
-        maxWidth: "7.5%",
+        maxWidth: "90px",
         position: "absolute",
         left: leftPos,
-        top: "66vh",
+        top: topPos,
         transition: "3s ease"
       }
     }
