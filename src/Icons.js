@@ -17,8 +17,8 @@ class Icons extends Component {
         <img className="bigger" src={RubyOnRails} alt="Ruby On Rails" title="Ruby On Rails"/>
         <img className="bigger logo" src={LogoReact} alt="React" title="React"/>
         <img className="bigger" src={JavaScript} alt="JavaScript" title="JavaScript"/>
-        <img className="bigger emberIsBetter" src={Tomster} alt="Ember" title="Ember"/>
-        <img className="smaller" src={Angular} alt="Angular" title="Angular"/>
+        <img className="bigger emberIsBetter" src={Tomster} alt="Ember" title="Oh, Tomster"/>
+        <img className="smaller angular" src={Angular} alt="Angular" title="Angular"/>
         <img className="smaller" src={Sass} alt="Sass" title="Sass"/>
       </div>
     )

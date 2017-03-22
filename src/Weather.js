@@ -35,7 +35,7 @@ class Weather extends Component {
 
   render() {
     return(
-      <div className="weather">
+      <div className="weather" title="Yes, I can connect to an external API.">
         <p><u>Weather in Portland:</u></p>
         <p><b>{Number(this.state.temp).toFixed()}&#176;F</b> with {(this.state.summary)}</p>
         <p>Low: <b>{Number(this.state.low).toFixed()}&#176;F</b> High: <b>{Number(this.state.high).toFixed()}&#176;F</b></p>

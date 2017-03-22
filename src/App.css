@@ -217,6 +217,12 @@
   animation-direction: alternate;
 }
 
+.angular {
+  animation: Literally-angular infinite 10s linear;
+  animation-delay: 5s;
+  z-index: -1;
+}
+
 @keyframes React-is-best {
   from {transform: rotate(0deg); }
   to {transform: rotate(360deg); }
@@ -225,6 +231,11 @@
 @keyframes Tomster-attack {
   from {transform: translateX(0);}
   to {transform: translateX(100px);}
+}
+
+@keyframes Literally-angular {
+  from {transform: rotate(100deg);}
+  to {transform: rotate(0deg);}
 }
 
 @media only screen and (max-width: 580px) {
