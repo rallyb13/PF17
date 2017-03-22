@@ -4,6 +4,7 @@ import Headline from './Headline';
 import SharkImg from './SharkImg';
 import GreatTypoHunt from '../public/GreatTypoHunt.jpg';
 import Zebra from '../public/Zebra.png';
+import Icons from './Icons';
 
 class SharkPage extends Component {
   componentWillMount() {
@@ -106,6 +107,7 @@ class SharkPage extends Component {
           </div>
           <SharkImg count={this.state.count} left={true} src={"SharkToRight.png"}/>
           <SharkImg count={this.state.count + 7} left={false} src={"SharkToLeft.png"}/>
+          <Icons />
         </div>
       </div>
     )
