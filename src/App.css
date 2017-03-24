@@ -131,6 +131,10 @@
   text-decoration: underline;
 }
 
+.sharkBlock p {
+  text-indent: 5px;
+}
+
 .bookImg {
   float: right;
   margin: 0.5em;
