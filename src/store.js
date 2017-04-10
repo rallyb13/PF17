@@ -14,11 +14,11 @@ const projectData = [
   {
     name: "Text Adventure",
     lang: "Unity/C#",
-    url: "http://gamebucket.io/game/1059a037-6535-4727-ba5f-f6ccee585abf",
+    url: "http://bherson.com/textadv",
     img: "TextAdv.png",
     alt: "Opening screen for a text adventure game",
     caption: "I'm learning Unity and C#! This is from one of the tutorials. ",
-    more: "Up on GameBucket for only a month, this is the latest game (that I'm proud of), a simple text-based game. The nice thing about a tutorial slow enough for people just learning to code is that I can apply a dash of more advanced coding logic to even these early games (if you make it into the forest, see what happens when you keep choosing R to Run)."
+    more: "It's a simple text-based game. The nice thing about a tutorial slow enough for people just learning to code is that I can apply a dash of more advanced coding logic to even these early games (if you make it into the forest, see what happens when you keep choosing R to Run). Can you puzzle out how to escape?"
   },
   {
     name: "Chess",

@@ -7,7 +7,7 @@ class Piece extends Component {
   
   togglePiece() {
     let newVal = !this.state.showFull
-    this.setState({showFull: newVal});
+    this.setState({showFull: newVal})
   }
   
   render () {
