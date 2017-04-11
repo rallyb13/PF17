@@ -68,7 +68,10 @@ class SharkPage extends Component {
           
           <div>
             <h4>From Text To Hypertext:</h4>
-            <div className="meAtEpicodus"></div>
+            <div className="codingPhoto">
+              <div className="meAtEpicodus"></div>
+              <p>photos by Grace Mekarski</p>
+            </div>
             <p>
               Books began pointing me in a new direction. <a target="_blank" href="https://www.amazon.com/Reality-Broken-Games-Better-Change/dp/0143120611">Reality Is Broken by Jane McGonigal</a> really
               spoke to me, and <a target="_blank" href="https://www.amazon.com/Program-Be-Programmed-Commands-Digital/dp/159376426X">Douglas Rushkoff's Program Or Be Programmed</a> made a great argument.
