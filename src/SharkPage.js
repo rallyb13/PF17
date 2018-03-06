@@ -27,22 +27,17 @@ class SharkPage extends Component {
           <div>
             <h4>If a shark stops swimming, it dies.</h4>
             <p>
-              It's much the same with humans, except that our swimming is learning.
-              Sure, we can stumble along like we're avoiding Rick Grimes, but for what?
-              I need to keep changing, keep charging, keep growing, keep learning.
-              About pages are snapshots of people holding still, so I'm not doing one.
-              This is a <b>Shark</b> page. I'm in motion. I'm on a quest. If you are too, maybe we'll meet up somewhere.
+              Humans are the same, except that our swimming is learning. About pages are snapshots of people holding still, so I'm not doing one.
+              This is a <b>Shark</b> page. I'm in motion. I'm on a quest to keep changing, keep learning, keep growing.
             </p>
           </div>
           
           <div>
             <h4>Childhood Dream, Accomplished:</h4>
             <p onMouseOver={this.changeCounter.bind(this)}>
-              I had a plan, and it almost worked. I wanted to make it as an author. I wrote a thousand words every day.
-              The really clever part? I worked at a national bookstore chain so that when I made it, they'd be motivated to push my book as one of their own.
-              Surely, working with inventory is also fun, but that's not important right now.
-              In 2010, my college buddy and former roommate Jeff Deck, an editor and long-time creative collaborator, brought me along on a crazy adventure.
-              It went like this:
+              I had a plan, and it almost worked. I wrote a thousand words every day in pursuit of my childhood dream: becoming a published author.
+              I even worked at Borders, hoping they'd be motivated to push my book when I made it.
+              In 2008, my college buddy and long-time creative collaborator, Jeff Deck, called me up:
             </p>
             <a target="_blank" href={bookLink}>
               <img className="bookImg" src={GreatTypoHunt} alt={"Our book: The Great Typo Hunt"}/>
@@ -52,16 +47,12 @@ class SharkPage extends Component {
             <p className="convo">Jeff: <em>It's a road trip with a mission to correct typos in signs!</em></p>
             <p className="convo" style={{marginBottom:"10px"}}>Me: <em>...I like road trips.</em></p>
             <p>
-              Our goofy adventure attracted a little media attention, then a lot, and soon we were on television.
-              Fortunately, we were ready for our moment more than most when the "fame = publishable" equation helped us get a book deal. We could write.
-              We'd both been honing our skills for over a decade, and so we wrote <a target="_blank" href={bookLink}>The Great Typo Hunt</a>!
-              Even better, my plan worked! Borders got behind us, giving us front table placement and booking nearly half the events in our 36-city book tour.
-              We sold through our hardback print run, and I expected the paperback to do even better (bookseller insight). Unfortunately, by the time it was released, Borders had been liquidated.
+              Our goofy adventure attracted a little media attention, then a lot. Fortunately, we were more ready than most when the "fame = publishable" equation helped us get a book deal. After honing our skills for over a decade, we could actually write. And so we created <a target="_blank" href={bookLink}>The Great Typo Hunt</a>!
+              With a 36-city book tour, we sold through our hardback print run, and I expected the paperback to do even better (bookseller insight). Unfortunately, by the paperback release, Borders had been liquidated.
             </p>
             <p>
-              Worse, after seeing how the sausage was made, I recognized that the publishing industry wasn't working right.
-              It's not writing itself that I wanted to step away from, but the business side of it didn't suit me. I didn't want to be self-marketing all the time; I wanted to be writing.
-              I'd had a good run. I'd accomplished my childhood dream of being published, yet I somehow hadn't gotten what I'd really wanted out of it.
+              Worse, after seeing how the sausage was made, I recognized that the business side of publishing didn't suit me. I didn't want to be self-marketing all the time; I wanted to be writing.
+              I'd accomplished my childhood dream, yet I somehow hadn't gotten what I'd really wanted.
               So what did I want?
             </p>
           </div>
@@ -79,32 +70,25 @@ class SharkPage extends Component {
               follow-up <a target="_blank" href="https://www.amazon.com/Singularity-Near-Humans-Transcend-Biology/dp/0143037889">The Singularity Is Near</a>. (Can you tell I was once a bookseller?)
               Meanwhile, my partner was having an absolute blast in her first years as a developer. This cannot be understated.
             </p>
-            <p onMouseOver={this.changeCounter.bind(this)}>
-              The storytelling impetus remained with me. As had the desire to take on large, ambitious projects. I like the feeling of an Epic Win, and that means the possibility of failure.
-              A self-identified ambivert, I also wanted my next adventure to include something I'd had at work, but not as a writer: a team.
-              The best fun I had at work was on teams, and I spent the vast majority of my 12 years in the book industry as a supervisor or team lead.
-            </p>
             <div className="zebra">
               <img src={Zebra} alt="Zebra Head"/>
               <h6>I'm on <a target="_blank" href="https://medium.com/@sexandstartups/zebrasfix-c467e55f9d96#.2nw798vnf">Team Zebra</a>.</h6>
             </div>
-            <p>
+            <p onMouseOver={this.changeCounter.bind(this)}>
               I finally decided to become 21st-century literate when I realized my storytelling drive could be satisfied by game-making.
               In 2014, while working at Powell's, I started learning to code, and before the year was out, I'd signed up for <a target="_blank" href="https://www.learnhowtoprogram.com">Epicodus</a> to 
               accelerate the process. At Epicodus, we coded in pairs, and I even found a team to help me build bigger projects than we'd been assigned. Our group project experiment
-              became such an Epic Win that we'd fundamentally changed the curriculum for all the students who would come after us. It also gave me the sense that I'd made the right decision.
+              became such an Epic Win that we fundamentally changed the curriculum for all future Epicodus students.
             </p>
             <p>
-              My internship through Epicodus led directly to my being hired at Thetus, where I picked up the moniker "Benjamin BugCrusher" for my tenacity in picking up bug tickets.
-              On Thursday, October 8th of 2015, I had my single best coding day ever, and I knew for certain I'd made the right choice.
+              Epicodus concluded with an internship at Thetus, which hired me for the same reason a PM there gave me the moniker "Benjamin BugCrusher," my tenacity.
+              On Thursday, October 8th of 2015, I had my single best coding day ever, and I knew I'd made the right choice.
               I amped up my JavaScript skills quickly thanks to the great team I had at Thetus (team name: <a target="_blank" href="https://en.wikipedia.org/wiki/Clurichaun">Clurichauns</a>). At Nike, I landed on the
               team responsible for one of the largest eCommerce sites in the world, adding analytics to their B2B applications.
             </p>
             <p>
-              And I'm still learning, still growing. Even as I'd like to continue the deep dive into JavaScript to become a true expert-level front-end dev,
-              I'm learning Unity (and C#) in order to continue building games. Seeing as the game ideas keep stacking up in my brain faster than I can code them alone, I've brought some friends together and formed a team.
-              The interest in Unity also supports my intention to get in at the ground floor as AR/VR stuff becomes accessible/available. I see a LOT of potential for a whole new user experience.
-              I'm a regular at React and Ember MeetUps, and frequent others. Most recently, I started a hack night for my fellow Epicodus Alumni. Warren Zevon said it best: "I'll sleep when I'm dead!"
+              After completing my contract with Nike, I joined HealthSparq because I believe in their mission. As I've honed in on amping up my skills as a JavaScript developer, I've also deepened my understanding of what makes a good user experience. (It's funny how that hopped off the computer screen and became a lens for viewing everything.)
+              HealthSparq also offered me the opportunity to return to a leadership role (for the first time since becoming a developer) as I stepped into the role as Scrum Master.
             </p>
           </div>
           <SharkImg count={this.state.count} left={true} src={"SharkToRight.png"}/>
