@@ -3,6 +3,15 @@ let PfStore = new EventEmitter();
 
 const projectData = [
   {
+    name: "HealthSparq",
+    lang: "Ember",
+    url: "",
+    img: "hsq.png",
+    alt: "HealthSparq, search results page",
+    caption: "I worked on the Search Experience team at HealthSparq. ",
+    more: "This was central to the application, a doctor finder that users accessed through their insurers that would help them find in-network healthcare providers and offer expected costs for procedures. It did more than that, even, but search results was where I lived...until new projects spun up and I became part of the Core Team, doing the highest-priority work across the application. Of my first three tech jobs, this is the only thing I've worked on that's public enough for me to offer a look at it on my profile."
+  },
+  {
     name: "Quid",
     lang: "React/Firebase",
     url: "https://quid.haikuthunder.com",

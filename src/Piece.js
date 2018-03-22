@@ -11,14 +11,16 @@ class Piece extends Component {
   }
   
   render () {
-    let coreDetails = <div>
-              <a href={this.props.url} target="_blank"><img src={this.props.img} alt={this.props.alt}/></a>
+    let image = <img src={this.props.img} alt={this.props.alt}/>,
+      slide = this.props.url ? <a href={this.props.url} target="_blank">{image}</a> : image,
+      coreDetails = <div>
+              {slide}
               <p>{this.props.caption} <span onClick={this.togglePiece.bind(this)} className="more">More...</span></p>
-            </div>;
-    let moreDetails = <div>
+            </div>,
+      moreDetails = <div>
               <p onClick={this.togglePiece.bind(this)}>{this.props.caption} {this.props.more} <span className="more">Less</span></p>
-            </div>;
-    let displayDetails = this.state.showFull ? coreDetails : moreDetails;
+            </div>,
+      displayDetails = this.state.showFull ? coreDetails : moreDetails;
     return (
       <div className="profilePiece">
         <h4><b>{this.props.name}</b> <span className="language">in {this.props.lang}</span></h4>
