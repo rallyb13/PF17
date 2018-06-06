@@ -30,6 +30,12 @@
 }
 
 
+.pdfIcon {
+  padding-top: 2px;
+  font-size: 90%;
+}
+
+
 /************* HEADLINE ************/
 .headline {
   text-align: center;
