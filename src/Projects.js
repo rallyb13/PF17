@@ -3,7 +3,6 @@ import Navigation from './Navigation';
 import Headline from './Headline';
 import Piece from './Piece';
 import PfStore from './store';
-import Weather from './Weather';
 
 class Projects extends Component {
   
@@ -22,7 +21,6 @@ class Projects extends Component {
         <Headline />
         <div className="projBlock">
           {pieces}
-          <Weather />
         </div>
       </div>
     )
