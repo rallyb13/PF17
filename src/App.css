@@ -133,13 +133,16 @@
   margin: 1em 2em;
 }
 
+.sharkBlock div {
+  margin-bottom: 1em;
+}
+
 .sharkBlock h4 {
-  margin: 20px 0 5px 0;
   text-decoration: underline;
 }
 
-.sharkBlock p {
-  text-indent: 5px;
+.careerBlock {
+  margin-top: 10px;
 }
 
 .bookImg {
