@@ -90,6 +90,7 @@
 .more:hover{
   text-decoration: underline;
   color: #3a4db4;
+  cursor: pointer;
 }
 
 .profilePiece img {

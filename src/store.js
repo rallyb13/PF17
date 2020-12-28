@@ -3,6 +3,15 @@ let PfStore = new EventEmitter();
 
 const projectData = [
   {
+    name: "Lytics",
+    lang: "Ember",
+    url: "",
+    img: "lytics-auths.png",
+    alt: "Lytics, the authorizations list",
+    caption: "As part of a small UI team, I always got to work on the important things. ",
+    more: "I even got to lead the effort to refactor one of our oldest, most heavily-used, and complained-about parts of the application: the UI for handling Lytics integrations with other marketing service providers. We worked in iterative releases building new features and reorganizing old ones for better useability. Customer feedback was immediate and entirely positive.",
+  },
+  {
     name: "HealthSparq",
     lang: "Ember",
     url: "",
